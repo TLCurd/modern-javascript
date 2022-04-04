@@ -15,7 +15,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("/* global moment */\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\nconsole.log(\"hola\");\nconsole.log(moment().format(\"[Today is] dddd\"));\nconsole.log(moment().format(\"dddd, MMMM Do YYYY, h:mm:ss a\"));\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
+eval("/* global moment */\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nconsole.log(\"hola\");\nconsole.log(moment().format(\"[Today is] dddd\"));\nconsole.log(moment().format(\"dddd, MMMM Do YYYY, h:mm:ss a\")); // Interpolate variable bindings\n\nvar name = \"Bob\",\n    time = \"today\";\nconsole.log(\"Hello \".concat(name, \", how are you \").concat(time, \"?\"));\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
 
 /***/ }),
 
